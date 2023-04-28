@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Elementos de Interés en Bootstrap</title>
+    <!-- Agrega la última versión de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"
+        </head>
+
+<body>
+    <div class="container">
+        <!-- Sección 1 - Jumbotron con botón de llamada a la acción que abre una ventana modal -->
+        <section>
+            <div class="jumbotron">
+                <h1 class="display-4">Bienvenidos a mi sitio web</h1>
+                <p class="lead">Aquí encontrarás información sobre mis servicios de desarrollo web.</p>
+                <hr class="my-4">
+                <p>¿Estás listo para comenzar tu próximo proyecto?</p>
+                <button type="button" class="btn btn-outline-info" data-toggle="modal"
+                    data-target="#myModal">Contáctame</button>
+            </div>
+            <!-- Ventana Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Formulario de contacto</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Nombre:</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Teléfono:</label>
+                                    <input type="number" class="form-control" id="phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Mensaje:</label>
+                                    <textarea class="form-control" id="message" rows="3"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 2 - Formulario de contacto -->
+        <section>
+            <h2>Formulario de contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Teléfono:</label>
+                    <input type="number" class="form-control" id="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <br type="submit" <hr class="my-4">
+                </br>
+                <section>
+                <div class="card border-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Zahira Díaz</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Me apasiona la tecnología, el pensamiento disruptivo y aprender .</h5>
+                      <p class="card-text">diazmartinezahira@gmail.com </p>
+                    </div>
+                  </div>
+                </section>
+    </div>
+    
